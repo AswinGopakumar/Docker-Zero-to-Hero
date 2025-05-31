@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: python-django-app-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: sample-python-app
   ports:
